@@ -33,10 +33,7 @@ const renderPage = (quiz, ui, jugador) => {
     
     var historial = JSON.parse(localStorage.getItem("historial")) === null ? [] : JSON.parse(localStorage.getItem("historial"));
 
-    quiz.preguntaIndex = 0;
-    jugador.acumulado = 0;
-    localStorage.setItem('acumulado', `${jugador.acumulado}`);
-    localStorage.setItem('numPregunta', '0');
+    
 
     contadorJuego ++;
     localStorage.setItem('contadorJuego', `${contadorJuego}`);
@@ -67,7 +64,10 @@ const renderPage = (quiz, ui, jugador) => {
       }
     );
     
-    
+    quiz.preguntaIndex = 0;
+    jugador.acumulado = 0;
+    localStorage.setItem('acumulado', `${jugador.acumulado}`);
+    localStorage.setItem('numPregunta', '0');
     
   } else {
 
