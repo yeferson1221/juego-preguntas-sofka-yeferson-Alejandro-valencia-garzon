@@ -198,8 +198,8 @@ export const BancoPreguntas = [
      */
      {
       pregunta: "¿Qué es un gen dominante?",
-      opciones: ["El que está escrito en el ADN y además lo vemos en el aspecto de la personan", "El que es muy fuerte", "El que domina a otro débil", 'El que es muy debil'],
-      ResCorrecta: "conjunto de estos seres vivos y su relación",
+      opciones: ["El que está escrito en el ADN y además lo vemos en el aspecto de la personas", "El que es muy fuerte", "El que domina a otro débil", 'El que es muy debil'],
+      ResCorrecta: "El que está escrito en el ADN y además lo vemos en el aspecto de la personas",
     },
 
 ];
